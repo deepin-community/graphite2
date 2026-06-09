@@ -1,3 +1,13 @@
+graphite2 (1.3.14-2deepin1) unstable; urgency=medium
+
+  * Fix CVE-2026-50593: integer underflow in slotat macro leading to out-
+    of-bounds write Crafted Graphite actions can induce an integer
+    underflow in the slotat macro, leading to an out-of-bounds write
+    prior to the slotmap. Add upstream patch to add bounds checking to
+    the slotat macro.
+
+ -- deepin-ci-robot <packages@deepin.org>  Tue, 09 Jun 2026 09:48:53 +0800
+
 graphite2 (1.3.14-2) unstable; urgency=medium
 
   [ Debian Janitor ]
