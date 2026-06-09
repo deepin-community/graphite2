@@ -9,3 +9,4 @@ do-not-require-future.diff
 spell-out-lesser-and-greater.diff 
 no-explicit-dot-font-settings.diff 
 explicit-pdflatex.diff
+CVE-2026-50593.patch
